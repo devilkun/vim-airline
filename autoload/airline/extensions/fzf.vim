@@ -1,12 +1,8 @@
-" MIT License. Copyright (c) 2013-2020 Bailey Ling et al.
+" MIT License. Copyright (c) 2013-2021 Bailey Ling et al.
 " Plugin: https://github.com/junegunn/fzf, https://github.com/junegunn/fzf.vim
 " vim: et ts=2 sts=2 sw=2
 
 scriptencoding utf-8
-
-if !get(g:, 'loaded_fzf', 0)
-  finish
-endif
 
 function! airline#extensions#fzf#init(ext) abort
   " Remove the custom statusline that fzf.vim sets by removing its `FileType
